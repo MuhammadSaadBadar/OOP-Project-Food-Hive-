@@ -1,0 +1,124 @@
+.register-title, .login-title , .forgot-password-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #232323;
+    -fx-font-family: "Times New Roman";  
+}
+
+.button-login, .button-register , .button-submit , .button-save ,.button-back{
+    -fx-background-color: #232323;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.button-login:hover , .button-submit:hover , .button-save:hover , .button-register:hover ,.button-back:hover {
+    -fx-background-color: #3C3C3C;
+    -fx-text-fill: white;
+}
+
+/* Hyperlink Styling */
+.hyperlink {
+    -fx-font-size: 12px;
+    -fx-text-fill: #232323;
+    -fx-padding: 5px 0;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #3C3C3C;
+}
+
+.button-create-account, .button-already-account {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 1px;
+    -fx-border-color: white;
+}
+
+.button-create-account:hover, .button-already-account:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.shift-pane {
+    -fx-background-color: linear-gradient(to bottom ,#3C3C3C , #232323);
+    -fx-padding: 50px;
+}
+
+.title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.food-hive-label ,.orderLabel{
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 20px;
+    -fx-text-fill: #ffce1b;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}
+
+.top-hbox-style , showRestaurant ,restaurantBox{
+    -fx-background-color: linear-gradient(to bottom ,#3C3C3C , #232323);
+}
+
+
+/* Button Styles */
+.button-style {
+    -fx-pref-width: 150px;
+}
+
+/* VBox styles */
+.vbox-style {
+    -fx-spacing: 20px;
+    -fx-padding: 20px;
+    -fx-alignment: center;
+}
+
+.vbox1-style, .vbox2-style, .vbox3-style{
+    -fx-border-width: 1px;
+    -fx-border-color: white;
+    -fx-background-color: linear-gradient(to bottom ,#3C3C3C , #232323);
+}
+
+/* TableView Styles */
+.table-view {
+    -fx-pref-height: 350px;
+    -fx-max-height: 350px;
+}
+
+/* Labels in the VBoxes */
+.vbox-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.restaurants-button, .categories-button, .home-button, .desi-button, .sweet-button, .fFood-button {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* Hover effect in JavaFX */
+.restaurants-button:hover,
+.categories-button:hover,
+.home-button:hover {
+    -fx-background-color: yellow;
+    -fx-text-fill: #333;
+}
+
+.minus-button , .plus-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffce1b;
+    -fx-font-size: 20px;
+    -fx-padding: 5px 10px;
+    -fx-font-weight: bold;
+}
