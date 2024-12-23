@@ -1,0 +1,5 @@
+This OOP project is a restaurant management application that incorporates user and admin functionalities.
+ Users can create accounts to securely access the system and process food orders conveniently.
+ The platform allows sorting restaurants and menu items based on categories for a personalized experience. 
+Admins have a dedicated dashboard to manage operations, including adding, editing, or removing items or categories. 
+This project demonstrates robust object-oriented principles like encapsulation, inheritance, and polymorphism to ensure scalability and maintainability.
